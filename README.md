@@ -1,4 +1,4 @@
-# iDex for Android · 全世代宝可梦图鉴识别机
+# Pokedex · 全世代宝可梦图鉴识别机
 
 > 本项目基于 **[zihang-huang (Zihang Huang)](https://github.com/zihang-huang)** 原创开源的 **[zihang-huang/iDex](https://github.com/zihang-huang/iDex)**（iOS SwiftUI 版，MIT License）进行原生 Android 移植与全世代功能扩展。
 > 使用 **Kotlin + Jetpack Compose** 构建，内置 100% 离线端侧 AI 视觉识别（ViT-1025 ONNX）、全世代 1025 宝可梦图鉴、第一代动画经典机身外观与动画风格声线 DSP。
@@ -42,7 +42,7 @@
 
 ## 📦 下载安装（APK）
 
-前往本仓库的 **[GitHub Releases](../../releases)** 页面即可直接下载预编译的安装包 `iDex-Android-v1.0.0.apk` 进行本地侧载安装（支持 Android 8.0 / API 26 及以上设备，包含 `arm64-v8a` / `armeabi-v7a` / `x86_64` ABI）。
+前往本仓库的 **[GitHub Releases](../../releases)** 页面即可直接下载预编译的安装包 `Pokedex-v1.0.0.apk` 进行本地侧载安装（支持 Android 8.0 / API 26 及以上设备，包含 `arm64-v8a` / `armeabi-v7a` / `x86_64` ABI）。
 
 > **签名说明**：默认公开分发的 `v1.0.0` APK 为本地侧载构建版（使用 Debug Key 签名，便于直接安装体验）；如需使用正式发布签名，请在本地构建时通过环境变量提供 `IDEX_KEYSTORE_FILE`、`IDEX_KEYSTORE_PASSWORD`、`IDEX_KEY_ALIAS` 与 `IDEX_KEY_PASSWORD`。
 
@@ -51,7 +51,7 @@
 ## 📂 项目工程目录结构
 
 ```text
-iDex-Android/
+Pokedex/
 ├── LICENSE                                   # MIT 开源许可证（含原作者与贡献者声明）
 ├── NOTICE.md                                 # 第三方模型、数据、字体与音频归属声明
 ├── README.md

@@ -4,7 +4,7 @@
 - **Project**: [zihang-huang/iDex](https://github.com/zihang-huang/iDex) (iOS SwiftUI)
 - **Author**: Zihang Huang (`zihang-huang`)
 - **License**: MIT License (`app/src/main/assets/licenses/iDex-MIT.txt`)
-- `iDex-Android` is a native Android (Kotlin + Jetpack Compose) port inspired by and derived from the architecture, retro Pokédex interaction design, and sound cues of `zihang-huang/iDex`.
+- `Pokedex` is a native Android (Kotlin + Jetpack Compose) port inspired by and derived from the architecture, retro Pokédex interaction design, and sound cues of `zihang-huang/iDex`.
 
 ## 2. Machine Learning Model
 - **Base Model**: [`skshmjn/Pokemon-classifier-gen9-1025`](https://huggingface.co/skshmjn/Pokemon-classifier-gen9-1025) (ViT-Base fine-tuned on 1,025 Pokémon species)
@@ -25,4 +25,4 @@
 
 ## 5. Intellectual Property Disclaimer
 Pokémon and all related character names, sprites, artwork, and cries are trademarks and copyrights of **Nintendo**, **Creatures Inc.**, **GAME FREAK inc.**, and **The Pokémon Company**.
-`iDex-Android` is an unofficial, non-commercial fan project and is not affiliated with, endorsed by, or sponsored by any of those companies.
+`Pokedex` is an unofficial, non-commercial fan project and is not affiliated with, endorsed by, or sponsored by any of those companies.

@@ -285,9 +285,9 @@ class DexViewModel(app: Application) : AndroidViewModel(app) {
                     capturedImage = null
                     message = if (e is RecognitionException) {
                         text(
-                            "Recognition is unavailable. Restart iDex and try again.",
-                            "识别暂不可用，请重启 iDex 后重试。",
-                            "識別を利用できません。iDex を再起動して、もう一度お試しください。",
+                            "Recognition is unavailable. Restart Pokedex and try again.",
+                            "识别暂不可用，请重启 Pokedex 后重试。",
+                            "識別を利用できません。Pokedex を再起動して、もう一度お試しください。",
                         )
                     } else {
                         fallbackErrorMessage()

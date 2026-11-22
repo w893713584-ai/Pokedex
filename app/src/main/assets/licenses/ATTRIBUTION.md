@@ -18,7 +18,7 @@ The original iOS upstream MIT license (`zihang-huang/iDex`) is preserved in `ass
 
 The on-device recognition model (`assets/national_classifier.onnx`, SHA-256: `d67e748768f2dad11049d960026a2841a3c9061e7c150bc67884d448902b8988`) is an INT8 dynamic-quantized ONNX export of [`skshmjn/Pokemon-classifier-gen9-1025`](https://huggingface.co/skshmjn/Pokemon-classifier-gen9-1025) licensed under Apache License 2.0 (`assets/licenses/Apache-2.0.txt`), generated via `scripts/model/export_1025_onnx.py`.
 
-Pokémon names, text, artwork, sprites, and cries are copyright and trademarks of Nintendo, Creatures Inc., GAME FREAK inc., and The Pokémon Company. iDex is an unofficial fan project and is not endorsed by those companies. These assets require appropriate rights review before any commercial distribution.
+Pokémon names, text, artwork, sprites, and cries are copyright and trademarks of Nintendo, Creatures Inc., GAME FREAK inc., and The Pokémon Company. Pokedex is an unofficial fan project and is not endorsed by those companies. These assets require appropriate rights review before any commercial distribution.
 
 Three locally bundled pixel font faces in `res/font/` support all interface languages:
 

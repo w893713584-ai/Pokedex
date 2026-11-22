@@ -496,7 +496,7 @@ fun SettingsSheet(vm: DexViewModel) {
                 // Section: Credits & Disclaimer
                 SectionCard(title = vm.text("CREDITS", "制作信息", "クレジット")) {
                     PixelText(
-                        text = "iDex · FIELD UNIT 001",
+                        text = "Pokedex · FIELD UNIT 001",
                         size = 7f,
                         language = vm.language,
                         color = DexTheme.cream,
